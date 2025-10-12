@@ -1,0 +1,12 @@
+[package]
+name = "ripress-wynd-minimal-demo"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ripress = { version = "*", features = ["with-wynd"] }
+lume = "*"
+wynd = { version = "*", features = ["with-ripress"] }
+dotenv = "0.15.0"
+tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
+paste = "1.0.15"
