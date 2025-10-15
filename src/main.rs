@@ -4,6 +4,7 @@ use lume::{
     database::{Database, error::DatabaseError},
     define_schema,
 };
+
 use ripress::{app::App, types::RouterFns};
 use wynd::wynd::{WithRipress, Wynd};
 
